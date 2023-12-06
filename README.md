@@ -1,6 +1,6 @@
 # Robotics
 Please follow these steps when beginning a project. 
-Since we are all working together on one repo, it can cause soem major problems.
+Since we are all working together on one repo, it can cause some major problems.
 Make sure that you follow ALL of these steps, or you could ruin everything.
 ## Setup
 The first thing you are going to do is create a <i>branch</i>.
