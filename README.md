@@ -6,11 +6,12 @@ Make sure that you follow ALL of these steps, or you could ruin everything.
 The first thing you are going to do is create a <i>branch</i>.
 * Go to the top of the files apove. It should have something that says "# branches". Click it.
 * Press the big green button that says "New Branch"
-* The Branch name should be your first name only. Set source to main
+* The Branch name should be your first name only (Capital First, like Anthony). Set source to main
 
 Next, you will need to create a codespace using that branch.
 * At the top of the page, press the + button, and click "New codespace".
-* Make sure that the branch is the one that you created.
+  * The Repo is Scecina-STEM/Robotics
+  * Make sure that the branch is the one that you created.
 
 Creating that should open up a tab with the code editor.
 * Once you are in, you need to run a command to create a folder for yourself.
@@ -28,4 +29,4 @@ mkdir anthony
 * This is the ONLY place that you should be writing your code. Each user will have their own, so that when we merge them together, everyone's code is sperate.
 * IF YOU DON'T, then we'll have really big problems when we merge the codes.
 * LASTLY: MAKE SURE YOU ARE ALWAYS USING YOUR BRANCH. If you use someone else's, then you can cause a headache to fix.
-  * You can tell which brach you are on by the name in the bottom left.
+  * You can tell which branch you are on by the name in the bottom left.
