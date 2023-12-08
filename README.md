@@ -17,8 +17,7 @@ You will need to create a codespace using the your branch.
   * At the very bottom left, next to the codespace name, it should say main
   * Click on that, then at the top select your branch
 
-After you change branches, do the following.
-After you change branches, do the following.
+Creating that should open up a tab with the code editor.
 * Once you are in, you need to run a command to create a folder for yourself.
 * Go to the terminal and type in the following code (replacing words in brackets as needed)
 
