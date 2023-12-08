@@ -1,0 +1,16 @@
+{
+    "Stats": {
+        "Health": 100,
+        "ArmourClass": 5
+    },
+    "Level0": {
+        "Inventory": [
+            { "ItemID": "PlayerSword", "Name": "Sword", "Count": 1 },
+            { "ItemID": "DoorKey", "Name": "Door Key", "Count": 1 },
+            { "ItemID": "Apple", "Name": "Apple", "Count": 10 }
+        ],
+        "Requirements": [
+            "ExampleTime"
+        ]
+    }
+}

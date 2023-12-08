@@ -1,0 +1,16 @@
+{name: Beggining Level}
+[1] Welcome to PSOA, the Python version of SOA. This is a test file.
+    [d.2] Hello
+---
+[2] Hey! Today, I'll be showing you how to play the game. Are you ready?
+    [d.3a] What's the game about?
+    [d.3b] I think I'm good.
+---
+[3a] Cool! Let's go!
+    [a.4a] Grab their hand
+---
+[3b] Aw :( That's sad.
+    [d.4a] No, wait, I change my mind
+    [a.4b] Walk away
+---
+{end}

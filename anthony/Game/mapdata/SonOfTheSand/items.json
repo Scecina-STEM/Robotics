@@ -1,0 +1,19 @@
+{
+    "PlayerSword": {
+        "Type": "Weapon",
+        "Meta": {
+            "Damage": 10,
+            "Durability": 60
+        }
+    },
+    "DoorKey": {
+        "Type": "Object",
+        "Meta": null
+    },
+    "Apple": {
+        "Type": "HealthConsumable",
+        "Meta": {
+            "Heals": 10
+        }
+    }
+}
