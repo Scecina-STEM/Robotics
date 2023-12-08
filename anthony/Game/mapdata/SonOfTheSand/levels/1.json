@@ -4,14 +4,21 @@
         "1": {
             "text": "Welcome to PSOA, the Python version of SOA. This map is Son of the Sand",
             "options": [
-                { "text": "Hello!", "goto": "2"}
+                { "text": "Hello!", "type": "dialog", "goto": "2"}
             ]
         },
         "2": {
             "text": "Hey! Today I'll be showing you how to play to game. Are you ready?",
             "options": [
-                { "text": "Whats the game about?", "goto": "3a" },
-                { "text": "I think I'm good", "goto": "3b" }
+                { "text": "What's the game about?", "type": "dialog", "goto": "3a" },
+                { "text": "I think I'm good.", "type": "dialog", "goto": "3b" }
+            ]
+        },
+        "3a": {
+            "text": "This game is about chosing a choice, fighting, and collecting. You think you can do that?",
+            "options": [
+                { "text": "Yah!", "type": "dialog", "goto": "4a" },
+                { "text": "Definatly not.", "type": "dialog", "goto": "4b"}
             ]
         }
     }
