@@ -7,7 +7,7 @@ First you need to setup a branch for you to work on.
 * In Github, go to the top of the file explorer. There you should see something called "# branches". Click on that.
 * That should bring you to the list of branches, and a button to click that says "New Branch"
 * Create your branch with the name of yours (capital first).
-  * example: John
+  * example: Anthony
 
 You will need to create a codespace using the your branch.
 * At the top of the page, press the + button, and click "New codespace".
@@ -15,7 +15,7 @@ You will need to create a codespace using the your branch.
   * Make sure that the branch is main
 * Once the code editor loads up, first change what branch you are on.
   * At the very bottom left, next to the codespace name, it should say main
-  * Click on that, then at the top select you branch
+  * Click on that, then at the top select your branch
 
 After you change branches, do the following.
 After you change branches, do the following.
@@ -61,3 +61,8 @@ The terminal is a powerful tool, one that you shall master. For now, here are so
   * ```./``` means 'this directory'.
   * ```../``` means 'parent directory' or the directory higher than it.
   * ```/``` specifies a directory, i.e. 'anthony' whould be a file with no extention and 'anthony/' would be a directory.
+
+### ls | la
+
+* This function tell you what files are in the directory you are in.
+* The different between ```ls``` and ```la``` is that the first shows defualt directories and file, while the second whould hidden items as well.
