@@ -26,11 +26,7 @@ def SetupGame(map_name:str) -> None:
     character_name:str = input("> ")
     save_data:dict = {
         "Path": save_dir,
-<<<<<<< HEAD
         "Level": 1,
-=======
-        "Level": 0,
->>>>>>> 1653635 (Anthony (#8))
         "CharacterName": character_name,
         "SaveState": {
             "Health": map_data.d_health,
@@ -49,11 +45,7 @@ def SetupGame(map_name:str) -> None:
                 save_data['SaveState']['Inventory'].append(item_obj)
     # Settup RAM data
     _Runtime.GamePath = save_dir
-<<<<<<< HEAD
     _Runtime.Level = 1
-=======
-    _Runtime.Level = 0
->>>>>>> 1653635 (Anthony (#8))
     _Runtime.CharacterName = character_name
     _Runtime.Health = save_data['SaveState']['Health']
     _Runtime.ArmourClass = save_data['SaveState']['ArmourClass']
@@ -72,11 +64,7 @@ def StartGame(save_name) -> None:
     save_data = SaveData(save_name)
     save_data.pushToRuntime()
     # Loop levels
-<<<<<<< HEAD
     lvl_i = _Runtime.Level
-=======
-    lvl_i = 1
->>>>>>> 1653635 (Anthony (#8))
     while True:
         lvl:Level = Level(lvl_i)
         next:int = lvl.runLevel()
