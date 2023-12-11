@@ -32,26 +32,42 @@ class Level:
     class Line:
         def __init__(self, data:dict) -> None:
             self.text = data['text']
+            self.type = data['type']
+            self.speaker = data['speaker']
             self.options = [ ]
             for opt in data['options']:
                 self.options.append(Level.Line.Option(opt))
             pass
 
         def runLine(self) -> str:
-            say(self.text)
+            if self.type == "dialog":
+                say(f"{self.speaker}: \"{self.text}\"")
+            else:
+                say(self.text)
+
             i = 1
+            cont = False
             for opt in self.options:
-                say(f"[{i}] {opt.text}", 1)
+                if opt.type == "continue":
+                    cont = True
+                    break
+                else:
+                    say(f"[{i}] {opt.text}", 1)
                 i=i+1
-            togo:str = int(input("> "))
-            return self.options[togo-1].goto
+            if not cont:
+                togo:str = int(input("> "))
+                return self.options[togo-1].goto
+            else:
+                return self.options[0].goto
 
         class Option:
             def __init__(self, data) -> None:
                 if data['type'] == 'dialog':
                     self.text = f"\"{data['text']}\""
-                else:
+                elif data['type'] == 'action':
                     self.text = data['text']
+                else:
+                    self.text = ""
                 self.type = data['type']
                 self.goto = data['goto']
                 pass
