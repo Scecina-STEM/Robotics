@@ -1,0 +1,551 @@
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2023.12.14)  14 DEC 2023 17:14
+ restricted system commands enabled.
+**output.tex
+(./output.tex
+LaTeX2e <2020-02-02> patch level 2
+Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
+Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is /home/codespace/.texlive2019/texmf-v
+ar/luatex-cache/generic-dev/names.
+luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2020-01-26.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.11”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is /home/codespace/.texlive2019/texmf-v
+ar/luatex-cache/generic-dev/names.
+Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
+cript
+Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
+ers
+Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
+e
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/codespace/.texlive2019/t
+exmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count171
+\Gm@cntv=\count172
+\c@Gm@tempcnt=\count173
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count174
+\l__pdf_internal_box=\box45
+))
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count175
+\g__xparse_grabber_int=\count176
+\l__xparse_m_args_int=\count177
+\l__xparse_v_nesting_int=\count178
+)
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/03 2.7h Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count179
+\l__fontspec_language_int=\count180
+\l__fontspec_strnum_int=\count181
+\l__fontspec_tmp_int=\count182
+\l__fontspec_tmpa_int=\count183
+\l__fontspec_tmpb_int=\count184
+\l__fontspec_tmpc_int=\count185
+\l__fontspec_em_int=\count186
+\l__fontspec_emdef_int=\count187
+\l__fontspec_strong_int=\count188
+\l__fontspec_strongdef_int=\count189
+\l__fontspec_tmpa_dim=\dimen145
+\l__fontspec_tmpb_dim=\dimen146
+\l__fontspec_tmpc_dim=\dimen147
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from /home/codespace/.texlive2019/texmf
+-var/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Could not resolve font "QTChanceryType/BI" (it probably
+(fontspec)             doesn't exist).
+
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'QTChanceryType(0)' created for font
+(fontspec)             'QTChanceryType' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"QTChanceryType:mode=node;script=latn;language=dflt;+t
+lig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"QTChanceryType/B:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"QTChanceryType/I:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+ (./output.aux)
+\openout1 = output.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 42
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count190
+\scratchdimen=\dimen148
+\scratchbox=\box46
+\nofMPsegments=\count191
+\nofMParguments=\count192
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count193
+\MPscratchDim=\dimen149
+\MPnumerator=\count194
+\makeMPintoPDFobject=\count195
+\everyMPtoPDFconversion=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks18
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
+5.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 42.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 42.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 42.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 42.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 42.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 42.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 42.
+LaTeX Font Info:    Redeclaring math accent \check on input line 42.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 42.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 42.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 42.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 42.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 42.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/QTChanceryType(0)/m/n on input line 4
+2.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 42.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/QTChanceryType(0)/m/n on input line 
+42.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/QTChanceryType(0)/m/n --> TU/QTChanceryType(0)/m/n on
+ input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/QTChanceryType(0)/m/it on input line
+ 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/QTChanceryType(0)/b/n on input line 
+42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 42.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/QTChanceryType(0)/m/n --> TU/QTChanceryType(0)/b/n on
+ input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/QTChanceryType(0)/b/it on input lin
+e 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 42.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<images/ccwalogo.png, id=8, 376.40625pt x 376.40625pt>
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 52.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 53.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 54.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 55.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [2<./images/ccwalogo.png>] [3]
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 66.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 67.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 68.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 69.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [4] [5]
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 80.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 81.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 82.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 83.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [6] [7]
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 94.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 95.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 96.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 97.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [8] [9]
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 108.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 109.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 110.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 111.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [10] [11]
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 122.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 123.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 124.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 125.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [12] [13]
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 136.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 137.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 138.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 139.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [14] [15]
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 148.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 149.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 150.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+File: images/ccwalogo.png Graphic file (type png)
+<use images/ccwalogo.png>
+Package luatex.def Info: images/ccwalogo.png  used on input line 151.
+(luatex.def)             Requested size: 144.54065pt x 144.54065pt.
+ [16] (./output.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 5148 strings out of 481365
+ 100000,552014 words of node,token memory allocated
+ 421 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 51 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:173,3:40,4:10,5:81,6:19,7:729,9:126,10:7,11:46
+ 21913 multiletter control sequences out of 65536+600000
+ 37 fonts using 3802899 bytes
+ 43i,10n,70p,251b,237s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texlive/texmf-dist/fonts/opentype/public/qualitype/QTChanceryType-Bo
+ld.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/qualitype/QTChancery
+Type.otf>
+Output written on output.pdf (16 pages, 74444 bytes).
+
+PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
