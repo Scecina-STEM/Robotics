@@ -1,0 +1,5 @@
+{name: The Tavern}
+[1.d.Narrator] You have arrived
+    [a.2] Ask for dirrections
+    [a.3] Leave
+{end}
