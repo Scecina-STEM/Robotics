@@ -1,0 +1,6 @@
+psudocode ["foo","bar","James",some","thing"]
+define list with stuff
+loop over list as element
+    if ele == "foo" or ele is "foo"
+        print "found it"
+         for or ele in list :       
