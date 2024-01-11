@@ -35,7 +35,7 @@ if __name__ == "__main__":
         arguments.run("--add", print)
         now = datetime.now(); year = now.year; month = now.month; day = now.day
         date = [int(f"{year:04d}{month:02d}{day:02d}")]
-        points:list[float] = [float(val) for val in arguments.find("--add").split(',')]
+        points:list[float] = arguments.find("--add")
         to_insert:list[int|float] = date+points
         manager.insertRecord('main', to_insert)
     elif arguments.find("--date") != None:

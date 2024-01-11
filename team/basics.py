@@ -6,6 +6,7 @@
 ### Imports ###
 # Global #
 import sys
+import re
 # Local #
 
 ### Main Class ###
@@ -15,15 +16,15 @@ class Basics:
     class Terminal:
 
         class Arguments:
-            def __init__(self, *, removeDashInit:bool=False) -> None:
-                self.arguments:dict = self.getArguments(removeDash=removeDashInit)
+            def __init__(self, *, removeDashInit:bool=False, specInterp:bool=False) -> None:
+                self.arguments:dict = self.getArgumentsSpec()
 
             def getArguments(self, *, removeDash:bool=False) -> dict:
-                """Get the arguments and turn them into a key-pair dict. This will take double dash flags and assign them as keys, and the value immediatly after will be its value. Example:
-                
-                python main.py --foo bar --file ../file_location
-                
-                return: {"--foo": "bar", "--file": "../file_location"}
+                """*Do not use. Use getArgumentsSpec() instead*
+
+                Get the arguments and turn them into a key-pair dict. 
+                This will take double dash flags and assign them as keys, 
+                and the value immediatly after will be its value.
 
                 Args:
                     removeDash:bool = remove the two hyphens before the key name
@@ -39,15 +40,51 @@ class Basics:
                         to_return[pair[0]] = pair[1]
                 return to_return
             
-            def find(self, index:str) -> str|None:
+            def getArgumentsSpec(self) -> dict:
+                """Returns a dictionary of double dashed terminal arguments with their value after. 
+                Supports single flags, as well as multiple arguments as list for a flag.
+                
+                Args:
+                    [removeDash:bool] = remove the two hyphens before the key name
+
+                Returns:
+                    A dictionary containg the args and their values.
+                """
+                sys_arguments:list = sys.argv; sys_arguments.pop(0)
+
+                arg_list:str = ""
+                for arg in sys_arguments:
+                    if re.match(r"^--", arg) != None:
+                        arg_list += f'\n{arg}'
+                    else:
+                        arg_list += f' {arg}'
+
+                args:dict = {}
+                for line in arg_list.split('\n'):
+                    if line == '': continue
+                    items:list = line.split(' ')
+                    match len(items):
+                        case 1:
+                            args[items[0]] = None
+                        case 2:
+                            args[items[0]] = items[1]
+                        case _:
+                            args[items[0]] = items[1:]
+                return args
+            
+            def find(self, index:str) -> str|list|bool|None:
                 """This function will find the value for a key, returning None if the value is not found.
+                Single flag arguments will return True.
                 
                 Args:
                     index:str = the name of the key to look for
                 """
                 for key in list(self.arguments.keys()):
                     if key == index:
-                        return self.arguments[key]
+                        if self.arguments[key] != None:
+                            return self.arguments[key]
+                        else:
+                            return True
                 return None
             
             def run(self, index:str, function) -> None:
