@@ -52,8 +52,8 @@ class soal:
                 match op.group(1):
                     case 'd': option['type'] = "dialog"
                     case 'a': option['type'] = "action"
-                    case 'c': line['type'] = "continue"
-                    case 'n': line['type'] = "next"
+                    case 'c': option['type'] = "continue"
+                    case 'n': option['type'] = "next"
                 line['options'].append(option)
 
             contents[line_id] = line

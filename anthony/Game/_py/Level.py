@@ -3,6 +3,7 @@ import json
 import re
 # Local Imports
 import _Runtime
+import _Colors as Co
 from Console import say
 from SoaL import soal
 
@@ -24,10 +25,9 @@ class Level:
         while True:
             res:str = self.lines[line_index].runLine()
             if res[0] == 'g':
-                pass
+                return res.replace('g', '')
             else:
                 line_index = res
-        
 
     class Line:
         def __init__(self, data:dict) -> None:
@@ -56,7 +56,11 @@ class Level:
                 i=i+1
             if not cont:
                 togo:str = int(input("> "))
-                return self.options[togo-1].goto
+                togoln = self.options[togo-1]
+                if togoln.type == 'next':
+                    return f"g{togoln.goto}"
+                else:
+                    return togoln.goto
             else:
                 return self.options[0].goto
 
@@ -66,8 +70,10 @@ class Level:
                     self.text = f"\"{data['text']}\""
                 elif data['type'] == 'action':
                     self.text = data['text']
+                elif data['type'] == 'next':
+                    self.text = f"{Co.Purple}continue...{Co.Color_Off}"
                 else:
-                    self.text = ""
+                    self.text = ''
                 self.type = data['type']
                 self.goto = data['goto']
                 pass

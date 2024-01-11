@@ -64,9 +64,9 @@ def StartGame(save_name) -> None:
     save_data = SaveData(save_name)
     save_data.pushToRuntime()
     # Loop levels
-    lvl_i = _Runtime.Level
     while True:
-        lvl:Level = Level(lvl_i)
-        next:int = lvl.runLevel()
-        lvl_i = next
+        lvl:Level = Level(_Runtime.Level)
+        next:int = int(lvl.runLevel())
+        print("MOVING:", next)
+        _Runtime.Level = next
         pass
