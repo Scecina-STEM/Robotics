@@ -1,0 +1,4 @@
+define list with stuff
+loop
+    if ele == 'foo'
+    
