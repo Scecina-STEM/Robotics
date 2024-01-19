@@ -1,5 +1,20 @@
 {name: The Tavern}
 [1.d.Narrator] You have arrived
-    [a.2] Ask for dirrections
-    [a.3] Leave
+    [a.3] Ask for dirrections
+    [a.2] Leave
+---
+[2.a.Narrator] You leave The Tavern
+    [n.3]
+---
+[3.a.Narrator] You check the area around you. There are a few people that you can talk to:
+    [a.4a] Tavernkeeper
+    [a.5a] Nun
+    [a.6a] Town Knight
+---
+[4a.a.Nar] You aproch the Tavernkeeper
+---
+[5a.a.Nar] You aproch the Nun
+---
+[6a.a.Nar] You aproch the Town Knight
+---
 {end}

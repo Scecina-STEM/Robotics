@@ -21,6 +21,9 @@ class BioCrypter:
         return cleaned_lines.upper()
 
     # Process DNA sequence
+    def restriction(dna:str, restrictors:list) -> list:
+        return dna.split(restrictors)
+
     def get_codons(dna:str) -> list:
         return [dna[i:i+3] for i in range(0, len(dna), 3)]
 

@@ -1,0 +1,111 @@
+{
+    "Path": "./savedata/SonOfTheSand-lol/",
+    "Level": 1,
+    "CharacterName": "Anthony Smith",
+    "SaveState": {
+        "Health": 100,
+        "ArmourClass": 5,
+        "Inventory": [
+            {
+                "id": "PlayerSword",
+                "name": "Sword",
+                "type": "Weapon",
+                "meta": {
+                    "Damage": 10,
+                    "Durability": 60
+                }
+            },
+            {
+                "id": "DoorKey",
+                "name": "Door Key",
+                "type": "Object",
+                "meta": {
+                    "b": 1
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            },
+            {
+                "id": "Apple",
+                "name": "Apple",
+                "type": "HealthConsumable",
+                "meta": {
+                    "Heals": 10
+                }
+            }
+        ],
+        "Requirements": [
+            "ExampleTime"
+        ]
+    }
+}
