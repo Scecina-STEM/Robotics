@@ -1,0 +1,25 @@
+
+\documentclass[letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{graphicx}
+
+\newcommand{\mycard}[2]{
+    \fbox{
+        \begin{minipage}[t][49mm][t]{28mm}
+            \centering{\fontsize{15}{17}\selectfont #1}
+            \vspace*{\fill}
+            \centering\includegraphics[width=28mm, height=49mm, keepaspectratio]{#2}
+            \vspace*{\fill}
+        \end{minipage}
+    }
+    \vspace{0.5in}
+}
+
+\begin{document}\centering
+\mycard{Lungs}{./images/1.jpg}
+\mycard{Pulmonary fibrosis}{./images/2.jpg}
+\mycard{Diaphragm}{./images/3.jpg}
+\mycard{Bronchitis}{./images/5.jpg}
+\mycard{Bronchioles}{./images/7.jpg}
+\mycard{Athsma}{./images/8.jpg}
+\end{document}
